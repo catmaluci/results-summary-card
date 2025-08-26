@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -21,20 +19,10 @@
     />
 
     <title>Frontend Mentor | Results summary component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    <section class="result">
+    <main class="card-container">
+      <section class="result">
     Your Result
         <div class="score-circle">
           76
@@ -45,57 +33,22 @@
       </div>
     </section>
     
-    <section class="summary">
-     <h3>Summary</h3> 
+
+      <section class="summary">
+        <h2 class="summary-title">Summary</h2>
+        <div class="summary-items-container">
+          </div>
+        <button class="continue-button">Continue</button>
+      </section>
+    </main>
+
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/catmaluci">Catmaluci</a>.
+    </footer>
     
-  <div class="summary-items, reaction">
-        <div class="item-category">
-            <img src="./assets/images/icon-reaction.svg" alt="Reaction icon">
-            <span class="reaction-tag">Reaction</span>
-        </div>
-        <div class="item-score">
-            <strong>80</strong> <span>/ 100</span>
-        </div>
-  </div>
-  
-  <div class="memory">
-        <div class="item-category">
-            <img src="./assets/images/icon-memory.svg" alt="Memory icon">
-            <span class="memory-tag">Memory</span>
-        </div>
-        <div class="item-score">
-            <strong>92</strong> <span>/ 100</span>
-        </div>
-    </div>
-
-      <div class="verbal">
-        <div class="item-category">
-            <img src="./assets/images/icon-verbal.svg" alt="Verbal icon">
-            <span class="verbal-tag">Verbal</span>
-        </div>
-        <div class="item-score">
-            <strong>61</strong> <span>/ 100</span>
-        </div>
-  </div>
-
-       <div class="visual">
-        <div class="item-category">
-            <img src="./assets/images/icon-visual.svg" alt="Visual icon">
-            <span class="visual-tag">Visual</span>
-        </div>
-        <div class="item-score">
-            <strong>72</strong> <span>/ 100</span>
-        </div>
-  </div>
-   
- 
-    <button class="continue-button">Continue</button>
-    </section>
+    <script src="./script.js"></script>
   </body>
-  <footer>
-    Challenge by
-    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-      >Frontend Mentor</a
-    >. Coded by <a href="https://github.com/catmaluci">Catmaluci</a>.
-  </footer>
 </html>
