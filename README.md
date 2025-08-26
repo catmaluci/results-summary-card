@@ -1,5 +1,5 @@
 # Frontend Mentor -  Results Summary Component Solution🔗
-This is my solution to the [Results summary component coding challenge](https://) on Frontend Mentor.
+This is my solution to the [Results summary component coding challenge](https://results-summary-card-coral.vercel.app/) on Frontend Mentor.
 
 ## Overview ✨
 
@@ -37,12 +37,6 @@ I created a semantic HTML structure with:
 - **Overlapping Effect** The key to the design's "overlap" effect was using a single parent container with a border-radius and overflow: hidden. The two child sections inside (.result and .summary) have their own backgrounds, but the parent's overflow: hidden ensures their corners don't poke out, giving the clean, unified appearance.
 - **Category items** Each result item uses a div with a unique class (e.g., .reaction, .memory) to apply the specific background color and icon color from the style guide.
 
-### 3. Interactive Elements with JavaScript ⚡
-- I used **document.querySelectorAll()** to select all accordion buttons.
-- A **click event listener** was added to each button.
-- When a button is clicked, a class (e.g., .active) is toggled on its parent element.
-- The content property of the **::after pseudo-element** was toggled to switch between **+** and **–** symbols.
-
 ## 📚 What I Learned
 - **Flexbox for Complex Layouts:** I furthered my understanding of using Flexbox to create multi-column layouts and how to adapt them for mobile views.
 
@@ -51,7 +45,7 @@ I created a semantic HTML structure with:
 - **CSS Custom Properties:** I reinforced the best practice of using variables for colors and other repeating values to make the stylesheet cleaner and more maintainable.
 
 ## 🔗 Links
-- **🌐 Live Site URL**: [Add your live site URL here]
+- **🌐 Live Site URL**: [Results summary component coding challenge](https://results-summary-card-coral.vercel.app/)
 
 ### **👥 Solved by M Olaya** 
 <a href="https://www.linkedin.com/in/molaya">LinkedIn</a> 
